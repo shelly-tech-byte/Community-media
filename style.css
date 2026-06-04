@@ -1,0 +1,91 @@
+body{
+	font-family: Arial,sans-serif;
+	margin: 0;
+	background: #fof4f8;
+}
+header{
+	background: repeating-linear-gradient(to right,#4facfe,#00f2fe);
+	color:white;
+	padding: 20px;
+	text-align: center;
+}
+nav{
+	background: dimgrey;
+	padding: 12px;
+	text-align: center;
+}
+nav a{
+	color: lightgrey;
+	margin: 0 15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav a:hover{
+	color:#38bdf8;
+}
+.hero{
+	background: repeating-linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));url('images/community.jpg')center/cover;
+	color :white;
+	padding:100px 20px;
+	text-align: center;
+
+}
+.container{
+	width: 90%;
+	margin:auto;
+	padding: 20px;
+
+}
+.card{
+	background: whitesmoke;
+	padding: 20px;
+	margin:20px 0;
+	border-radius: 12px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	transition: 0.3s;
+
+}
+.card:hover{
+	transform: scale(1.02);
+
+}
+button{
+	background: #ff7a18;
+	background: linear-gradient(to right,#ff7a18,#ffb347);
+	border: none;
+	padding: 12px 18px;
+	color: white;
+	cursor:pointer;
+	border-radius: 8px;
+	font-weight: bold;
+
+}
+button:hover{
+	opacity: 0.9;
+}
+input,textarea{
+	width:100%;
+	padding: 12px;
+	margin:10px 0;
+	border:1px solid #ccc;
+	border-radius: 8px;
+}
+footer{
+	background: #0f172a;
+	color:#cbd5f5;
+	text-align: center;
+	padding: 15px;
+	
+
+}
+footer a{
+	color:#38bdf8;
+	text-decoration: none;
+	font-weight: bold;
+}
+footer a:hover{
+	color: #ffb347;
+}
+img{
+	border-radius: 10px;
+}
